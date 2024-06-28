@@ -19,9 +19,6 @@ Anomaly correlation of model years 1979-1980 at 6 hourly averaged timesteps for 
 - **Jesse Nusbaumer** (NSF - NCAR)
 
 
-William E. Chapman 1, Francine Schevenhoven 2, Judith Berner 1, Noel Keenlyside 2, Ingo Bethke 2,
-Ping-Gin Chiu 2, Alok Kumar Gupta 2, and Jesse Nusbaumer 
-
 ### File Directory Path:
 To create any figure in the study please run the following notebooks: 
 
