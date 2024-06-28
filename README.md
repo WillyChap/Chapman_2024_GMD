@@ -32,20 +32,27 @@ To create any figure in the study please run the following notebooks:
 **Figure 05:**
 - `.-|-> ./Wind_Hist.ipynb`
 
-- **Figure 06:**
-`.-|-> .MOV/*.ipynb`
+**Figure 06:**
+- `.-|-> .MOV/Modes_Bias.ipynb`
+- `.-|-> .MOV/Panel_Plot.ipynb`
+
+**Figure 07:**
+- `.-|-> .Climo_U10.ipynb`
+
+**Figure 08:**
+- `.-|-> .Climo_Precip.ipynb`
+
+**Figure 08:**
+- `.-|-> .Climo_Precip.ipynb`
+- `.-|-> .Climo_U10.ipynb`
 
 ### Supplemental Figures:
 
-**Wheeler-Kiladis:**
-- `.-|-> ./CMJO_Diagnostic_Tool/wk_spectra/*`
-
-**Bias Panel Plots:**
-- `.-|-> ./Climo_Bias_Tiles/CLIMO_Tiles.ipynb`
-
-**OMEGA Bias:**
-- `.-|-> ./Omega/OMEGA_WALKER.ipynb`
+- `.-|-> ./Wind_Hist.ipynb`
+- `.-|-> .Climo_U10.ipynb`
+- `.-|-> .MOV/Modes_Bias.ipynb`
+- `.-|-> .MOV/Panel_Plot.ipynb`
 
 ### Abstract
 
-In this study, we develop a novel approach to correct biases in the atmospheric component of the Community Earth System Model (CESM) using convolutional neural networks (CNNs) to create a corrective model parameterization for online reduction. By learning to predict systematic nudging increments derived from a linear relaxation towards the ERA5 reanalysis, our method dynamically adjusts the model state, significantly outperforming traditional corrections based on climatological increments alone. Our results demonstrate substantial improvements in the root mean square error (RMSE) across all state variables, with precipitation biases over land reduced by 25-35%, depending on the season. Beyond reducing climate biases, our approach enhances the representation of major modes of variability, including the North Atlantic Oscillation (NAO) and other key aspects of boreal winter variability. A particularly notable improvement is observed in the Madden-Julian Oscillation (MJO), where the 
+Here we present a framework that enables the first atmosphere connected supermodel using state-of-the-art atmosphere models. Versions of the Community Atmosphere Model (CAM) 5 and 6 are enabled to exchange information interactively while the models are running (a principle known as supermodeling). This innovative approach facilitates the integration of these models, allowing them to compensate for each other’s systematic errors in real time. The framework is flexible and relatively fast to integrate. We show that the models are able to synchronize, especially in dynamics driven regions. In this study we examine a single untrained super model (each model version is given equal weighting) in the combined modeling form. We show that model variability is only reduced in regions of low synchronization, and the low frequency modes of variability (NAO/PNA) are not degraded compared to the base model states. For some variables, the bias is reduced compared to both control simulations of each model version and a non-interactive ensemble.
