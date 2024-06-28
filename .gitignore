@@ -1,0 +1,85 @@
+# Ignore Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
+**/*.ipynb_checkpoints/
+
+# Ignore PNG image files
+*.png
+
+# Ignore NetCDF files
+*.nc
+*.nc4
+
+# Ignore Python specific files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook file backups
+*.ipynb_checkpoints
+
+# Ignore environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore Byte-compiled / optimized / DLL files
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore C extensions
+*.so
+
+# Ignore distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore virtualenv
+*.cover/
+*.run/
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# Ignore mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignore temporary files created by editors
+*~
+*.swp
+*.swo
+*.tmp
+
+# Ignore vscode settings
+.vscode/
+
+# Ignore Sublime Text files
+*.sublime-project
+*.sublime-workspace
