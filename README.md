@@ -1,4 +1,7 @@
 ![Model Syncronization](Corr_Panel_Prog.png "Network + Performance")
+### Fig. 2. 
+Anomaly correlation of model years 1979-1980 at 6 hourly averaged timesteps for the CAM5 and CAM6 SUMO runs (a,c,e,g) and the CAM6 SUMO run and an independent CAM6 run (b,d,f,h) at 200 hPa for model variables zonal wind (a,b), zonal wind (c,d), temperature (e,f), and specific humidity (g,h). Anomalies are determined by removing a 30-day centered mean at every timestep. 
+
 
 # Repository to Create All Figures in:
 ## **_A Framework for Atmosphere Connected SuperModels_**
